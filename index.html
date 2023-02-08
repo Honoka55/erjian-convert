@@ -4,48 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<style type="text/css">
-		@font-face {
-			font-family: "erjian1";
-			src: url('https://cdn.jsdelivr.net/gh/Honoka55/honoka55.github.io/fonts/erjian.ttf') format('truetype');
-			unicode-range: U+5FF0, U+75A9, U+7C8B, U+7FC6, U+6BC1, U+9F99, U+7815, U+9496, U+808A, U+6D42, U+685C, U+9154, U+200D3, U+200DC, U+201A8, U+20BB5, U+20BE5, U+219F3, U+21C52, U+22342, U+22488, U+225B3, U+22A83, U+2418A, U+2462F, U+25128, U+26678, U+26B01, U+27FEC, U+2A9F7, U+2BA4F, U+2BA51, U+2BBDC, U+2BCB7, U+2BDC0, U+2BE6F, U+2C0AD, U+2D026, U+2D64F, U+2D70C, U+2DCFF, U+2E0B9, U+30002, U+30008-30009, U+30053, U+30061, U+3006C, U+30072, U+300DD, U+3011D, U+30149-3014A, U+30170, U+30174, U+30179, U+3018A, U+30196, U+301B3, U+301BB, U+301E2, U+301F0, U+30270, U+302D9, U+302DB-302DC, U+302DE, U+302F7, U+302FB, U+30335, U+3033B, U+3034E, U+30370-30371, U+30409, U+30414, U+3043A, U+3043F, U+3044A, U+3044C, U+30450, U+3045D-3045E, U+304CC, U+304E2-304E3, U+304E8, U+304ED, U+3057A, U+305D1, U+305DD, U+305F6, U+3067D, U+306D1, U+306D3, U+306EC, U+30708, U+30776, U+30831, U+30842, U+308F2, U+3094C, U+30955, U+30969, U+30993, U+309AA-309AB, U+30A1B, U+30A62, U+30AA9, U+30AB1, U+30AFE, U+30B04, U+30B0A, U+30B15, U+30B43, U+30B4B, U+30B5D, U+30BF6, U+30C21, U+30C21, U+30C2B, U+30CBD, U+30CC7, U+30D4B, U+30D55, U+30D5F, U+30DDF, U+30DE3, U+30E01, U+30E04, U+30E70, U+30E79, U+30F03, U+30F59, U+30F5F, U+30F64, U+30F82, U+310AA, U+3114C, U+31151;
-		}
-
-		@font-face {
-			font-family: "erjian2";
-			src: url('https://cdn.jsdelivr.net/gh/Honoka55/honoka55.github.io/fonts/erjian.ttf') format('truetype')
-		}
-
-		@font-face {
-			font-family: "erjianx";
-			src: url('https://cdn.jsdelivr.net/gh/Honoka55/honoka55.github.io/fonts/erjianx.ttf') format('truetype')
-		}
-
-		textarea {
-			width: 95%;
-			height: 500px;
-			margin: auto;
-			display: block;
-			resize: none;
-			padding: 3px 5px;
-			font-family: SimSun, serif;
-			font-size: 1.3em;
-		}
-
-		@media (min-width: 768px) {
-			textarea {
-				width: 40%;
-				display: inline-block;
-			}
-		}
-
-		div {
-			padding: 3px 5px;
-			font-size: 1.1em;
-			width: 95%;
-			text-align: center;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="style.css" />
 	<title>二简转换器</title>
 </head>
 
@@ -53,10 +12,10 @@
 	<textarea spellcheck="false">// 字表完善中，转换出错请至issue提报。
 // 部分类推字的字体尚未制作。</textarea>
 	<div>
-		<button id="yijian">一简字</button>
-		<button id="erjian-1">二简（草案）第一表</button>
-		<button id="erjian-2">二简（草案）两表</button>
-		<button id="erjian-xiu">二简（修订草案）</button>
+		<button id="yijian">一简</button>
+		<button id="erjian-1">草案第一表</button>
+		<button id="erjian-2">草案两表</button>
+		<button id="erjian-xiu">修订草案</button>
 	</div>
 	<div>Copyright © 2023 Honoka55 | <a href='https://honoka55.github.io'>Home</a> | <a
 			href='https://github.com/Honoka55/erjian-convert'>Repo</a></div>
