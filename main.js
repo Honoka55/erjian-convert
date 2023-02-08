@@ -1,4 +1,5 @@
 const text = document.getElementsByTagName('textarea')[0];
+const title = document.getElementById('title');
 
 const yijian = {
     '𰀂': '虐',
@@ -2859,22 +2860,30 @@ const erjianXiu = {
 };
 
 document.getElementById('yijian').addEventListener('click', function () {
+    title.innerHTML = '二简转换器';
+    title.style.fontFamily = 'SimSun, serif';
     text.style.fontFamily = 'SimSun, serif';
     convertText(text, yijian);
 });
 
 document.getElementById('erjian-1').addEventListener('click', function () {
+    title.innerHTML = '二简转换𫩏';
+    title.style.fontFamily = 'erjian1, SimSun, serif';
     text.style.fontFamily = 'erjian1, SimSun, serif';
     convertText(text, erjian1);
 });
 
 document.getElementById('erjian-2').addEventListener('click', function () {
+    title.innerHTML = '二𫈉转换𫩏';
+    title.style.fontFamily = 'erjian2, SimSun, serif';
     text.style.fontFamily = 'erjian2, SimSun, serif';
     convertText(text, erjian1);
     convertText(text, erjian2);
 });
 
 document.getElementById('erjian-xiu').addEventListener('click', function () {
+    title.innerHTML = '二𫈉转换器';
+    title.style.fontFamily = 'erjianx, SimSun, serif';
     text.style.fontFamily = 'erjianx, SimSun, serif';
     convertText(text, erjianXiu);
 });

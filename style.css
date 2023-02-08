@@ -93,3 +93,9 @@ button:hover {
     background-color: #ddc2f5;
     color: #363169;
 }
+
+#title {
+    font-size: 2em;
+    padding-bottom: 12px;
+    font-family: SimSun, serif;
+}
