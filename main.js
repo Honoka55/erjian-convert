@@ -1,5 +1,5 @@
-const text = document.getElementsByTagName('textarea')[0];
-const title = document.getElementById('title');
+const text = document.getElementById('convert-text');
+const title = document.getElementById('convert-title');
 
 const yijian = {
     '𰀂': '虐',
