@@ -39,14 +39,16 @@
     outline: 1px solid #d19ffe;
 }
 
-#convert-title, #convert-btns {
+#convert-title,
+#convert-btns {
     padding: 3px 5px;
     font-size: 1.1em;
     color: var(--card-text-color-main);
 }
 
 @media (max-width: 768px) {
-    #convert-title, #convert-btns {
+    #convert-title,
+    #convert-btns {
         text-align: center;
     }
 }
@@ -69,10 +71,4 @@
 .convert-btn:hover {
     background-color: #ddc2f5;
     color: #363169;
-}
-
-#convert-title {
-    font-size: 2em;
-    padding-bottom: 12px;
-    font-family: Iosevka, Menlo, Monaco, Consolas, 'Courier New', SimSun, serif;
 }
